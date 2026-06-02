@@ -1,0 +1,18 @@
+# api
+fastapi==0.136.1
+uvicorn==0.34.3
+pydantic==2.12.5
+pydantic-settings==2.9.1
+
+# http client (GitHub API calls in Phase 1)
+httpx==0.28.1
+
+# langgraph (wired in Phase 1, nodes filled later)
+langgraph==0.3.34
+langchain-google-genai==2.1.4
+
+# linting agent (Phase 2)
+ruff==0.15.15
+
+# utils
+python-dotenv==1.1.0
