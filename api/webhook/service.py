@@ -15,7 +15,9 @@ async def handle_pr_event(repo: str, pr_number: int) -> None:
     initial_state: PRReviewState = {
         "repo": repo,
         "pr_number": pr_number,
+        "pr_branch": "",
         "diff": None,
+        "full_files": None,
         "lint_results": None,
         "llm_review": None,
         "test_results": None,
